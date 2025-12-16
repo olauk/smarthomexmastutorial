@@ -10,6 +10,10 @@ Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
 * klikk på **Utvidelser** i menyen under tannhjulet
 * søk etter **https://github.com/olauk/smarthomexmastutorial** og importér
 
+## Tutorial
+
+* [tutorial]/tutorial 
+
 ## Rediger dette prosjektet
 
 For å redigere dette kodeområdet i MakeCode.
