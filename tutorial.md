@@ -64,6 +64,9 @@ basic.forever(function () {
 
 ## Noter verdier @showdialog
 
+Last ned programmet til din micro:bit. (Bruk den store lilla "Last ned"-knappen nede i venstre hjørne)
+
+
 Noter ned verdien som fuktighetssensoren viser når den er tørr og verdien når dere har fuktighetssensoren i vann.
 Dette skal dere bruke for å automatisere juletrevanneren.
 
@@ -87,6 +90,7 @@ Koble den svarte ledningen til svart på sensor: bit
 Vi programmerer en liten test for å se om vi har koblet riktig.Finn`` || input: når knapp A trykkes || `` og plasser`` || smarthome: Relay P2 toggle to NC Open NO Close || ``
 Gjør det samme med`` || input: når knapp B trykkes || `` men sett`` || smarthome: Relay P2 toggle to NC Close NO Open || `` til "NC Close NO Open"
 
+Last ned programmet til micro:bit og sjekk at det fungerer som du hadde tenkt.
     ```blocks
 input.onButtonPressed(Button.A, function () {
     smarthome.Relay(DigitalPin.P2, smarthome.RelayStateList.Off)
