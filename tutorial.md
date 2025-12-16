@@ -80,7 +80,7 @@ Koble den røde ledninge fra pumpen til den midterste skrukontakten på releet.
 Koble en enkel ledning fra skrukoblingen NO på releet til rød på sensor: bit.
 
 Koble den svarte ledningen til svart på sensor: bit
-![Oppkobling](/static/tutorials / LRBAV68.png)
+![Oppkobling](/LRBAV68.png)
 
 ## Test av pumpen
 
