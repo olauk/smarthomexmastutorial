@@ -12,7 +12,7 @@ Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
 
 ## Tutorial
 
-* [tutorial]/tutorial 
+* [tutorial](/tutorial) 
 
 ## Rediger dette prosjektet
 
