@@ -13,6 +13,7 @@ Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
 ## Tutorial
 
 * [tutorial](/smarthomexmastutoria/tutorial) 
+* [start tutorial](https://makecode.microbit.org/#tutorial:github:olauk/smarthomexmastutorial/tutorial)
 
 ## Rediger dette prosjektet
 
