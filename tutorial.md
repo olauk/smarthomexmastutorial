@@ -38,7 +38,7 @@ Vi vil lese av verdien som fuktighetssensoren måler når den er i luft og når 
 Vi vil oppdatere variabelen "fuktighet" hvert 500 milisekund, så finn`` || variables: sett fuktighet til || `` og legg den i "every 500 ms".
 Fra kategorien "Smarthome" finner vi`` || smarthome: value of soil moisture at pin P1 || ``.Legg denne blokken slik at variabelen fuktighet settes til "value of soil moisture.."
 
-    ```blocks
+```blocks
 let fuktighet = 0
 loops.everyInterval(500, function () {
     fuktighet = smarthome.ReadSoilHumidity(AnalogPin.P1)
