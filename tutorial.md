@@ -91,7 +91,8 @@ Vi programmerer en liten test for å se om vi har koblet riktig.Finn`` || input:
 Gjør det samme med`` || input: når knapp B trykkes || `` men sett`` || smarthome: Relay P2 toggle to NC Close NO Open || `` til "NC Close NO Open"
 
 Last ned programmet til micro:bit og sjekk at det fungerer som du hadde tenkt.
-    ```blocks
+
+```blocks
 input.onButtonPressed(Button.A, function () {
     smarthome.Relay(DigitalPin.P2, smarthome.RelayStateList.Off)
 })
@@ -103,7 +104,7 @@ input.onButtonPressed(Button.B, function () {
 
 Vi vil at programmet skal styre vanningen.
 
-    Finn`` || logic: hvis sann så ellers || `` og plasser den i`` || basic: gjenta for alltid || ``
+Finn`` || logic: hvis sann så ellers || `` og plasser den i`` || basic: gjenta for alltid || ``
 
 Finn`` || logic: 0 < 0 || `` og plasser den der det står "sann" i "hvis sann så ellers" - blokken.
 
@@ -148,7 +149,7 @@ basic.forever(function () {
 Hvis fuktighetssensor viser verdien som tilsvarer at den er tørr - så skal pumpen skrus på.
 Hvis fuktighetssensor viser verdien som tilsvarer at den er i vann - så skal pumpen skrus av.
 
-    Bruk`` || smarthome: Relay P2 toggle to NC Open NO Close || `` for å skru på pumpen.Bruk samme blokk, men endre til "NC|Close NO|Open" for å skru pumpen av.
+Bruk`` || smarthome: Relay P2 toggle to NC Open NO Close || `` for å skru på pumpen.Bruk samme blokk, men endre til "NC|Close NO|Open" for å skru pumpen av.
 
 ```blocks
 basic.forever(function () {
