@@ -9,6 +9,7 @@ Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
 * klikk på **Nytt prosjekt**
 * klikk på **Utvidelser** i menyen under tannhjulet
 * søk etter **https://github.com/olauk/smarthomexmastutorial** og importér
+* prosjektet bruker komponenter fra Elecfreaks Smart Home Kit. [https://github.com/tinkertanker/pxt-smarthome](https://github.com/tinkertanker/pxt-smarthome)
 
 ## Tutorial
 
