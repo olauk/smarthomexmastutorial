@@ -83,7 +83,7 @@ Koble den røde ledninge fra pumpen til den midterste skrukontakten på releet.
 Koble en enkel ledning fra skrukoblingen NO på releet til rød på sensor: bit.
 
 Koble den svarte ledningen til svart på sensor: bit
-![Oppkobling](https://github.com/olauk/smarthomexmastutorial/blob/bbf7dd65a9397aa9855a5ccdf1e79b227af01262/LRBAV68.png)
+![Oppkobling](https://github.com/olauk/static/blob/master/LRBAV68.png?raw=true)
 
 ## Test av pumpen
 
