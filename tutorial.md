@@ -127,7 +127,7 @@ basic.forever(function () {
 Bruk verdiene dere noterte fra testen med fuktighetssensoren.Hva viser sensoren når den er helt tørr ? Hva viser sensoren når den såvidt er nede i vannet ?
 Viser sensoren forskjellig verdi ut fra hvor langt dere fører den ned i vannet ?
 
-Hvis fuktighetssensoren er tørr, så går vi ut fra at julegrana må vannes.Hvis fuktighetssensoren oppdager vann, så antar vi at vi har vannet nok.
+Hvis fuktighetssensoren er tørr, så går vi ut fra at julegrana må vannes. Hvis fuktighetssensoren oppdager vann, så antar vi at vi har vannet nok.
 Finn`` || variables: fuktighet || `` og plasser den i`` || logic: hvis sann så ellers || `` og skriv inn verdien som dere målte når fuktighetssensoren var i luft.
 
 ```blocks
@@ -149,7 +149,7 @@ basic.forever(function () {
 Hvis fuktighetssensor viser verdien som tilsvarer at den er tørr - så skal pumpen skrus på.
 Hvis fuktighetssensor viser verdien som tilsvarer at den er i vann - så skal pumpen skrus av.
 
-Bruk`` || smarthome: Relay P2 toggle to NC Open NO Close || `` for å skru på pumpen.Bruk samme blokk, men endre til "NC|Close NO|Open" for å skru pumpen av.
+Bruk`` || smarthome: Relay P2 toggle to NC Open NO Close || `` for å skru på pumpen. Bruk samme blokk, men endre til "NC Close NO Open" for å skru pumpen av.
 
 ```blocks
 basic.forever(function () {
