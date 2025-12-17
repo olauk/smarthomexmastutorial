@@ -125,10 +125,10 @@ basic.forever(function () {
 ## Automatiser vanning steg 2
 
 Bruk verdiene dere noterte fra testen med fuktighetssensoren.Hva viser sensoren når den er helt tørr ? Hva viser sensoren når den såvidt er nede i vannet ?
-    Viser sensoren forskjellig verdi ut fra hvor langt dere fører den ned i vannet ?
+Viser sensoren forskjellig verdi ut fra hvor langt dere fører den ned i vannet ?
 
-        Hvis fuktighetssensoren er tørr, så går vi ut fra at julegrana må vannes.Hvis fuktighetssensoren oppdager vann, så antar vi at vi har vannet nok.
-            Finn`` || variables: fuktighet || `` og plasser den i`` || logic: hvis sann så ellers || `` og skriv inn verdien som dere målte når fuktighetssensoren var i luft.
+Hvis fuktighetssensoren er tørr, så går vi ut fra at julegrana må vannes.Hvis fuktighetssensoren oppdager vann, så antar vi at vi har vannet nok.
+Finn`` || variables: fuktighet || `` og plasser den i`` || logic: hvis sann så ellers || `` og skriv inn verdien som dere målte når fuktighetssensoren var i luft.
 
 ```blocks
 basic.forever(function () {
@@ -179,8 +179,8 @@ smarthome=github:tinkertanker/pxt-smarthome
 ```
 
 ```template
-loops.everyInterval(500)
 smarthome.ReadSoilHumidity(AnalogPin.P1)
+smarthome.Relay(DigitalPin.P2, smarthome.RelayStateList.Off)
 ```
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
