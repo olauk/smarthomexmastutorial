@@ -103,10 +103,8 @@ input.onButtonPressed(Button.B, function () {
 ## Automatisere vanning
 
 Vi vil at programmet skal styre vanningen.
-
-Finn`` || logic: hvis sann så ellers || `` og plasser den i`` || basic: gjenta for alltid || ``
-
-Finn`` || logic: 0 < 0 || `` og plasser den der det står "sann" i "hvis sann så ellers" - blokken.
+Finn ``||logic: hvis sann så ellers || `` og plasser den i `` || basic: gjenta for alltid || ``
+Finn `` || logic: 0 < 0 || `` og plasser den der det står "sann" i "hvis sann så ellers" - blokken.
 
 ```blocks
 basic.forever(function () {
