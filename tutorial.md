@@ -5,12 +5,12 @@
 Jula nærmer seg og dere skal lage en løsning som sikrer at julegrana holder seg grønn og frisk gjennom jula.
 
 
-    Mål: Når det er for lite vann, skal micro: bit fylle opp beholderen med vann.
+Mål: Når det er for lite vann, skal micro: bit fylle opp beholderen med vann.
 
 ## Sett opp OLED
 
 Vi starter med oppkobling av OLED - skjermen.
-    Finn`` || oled: initialize OLED with width 128 height 64 || `` og plasser denne i`` || basic: ved start || ``
+Finn`` || oled: initialize OLED with width 128 height 64 || `` og plasser denne i`` || basic: ved start || ``
 Ikke endre verdiene i denne blokken.
 
 ```blocks
@@ -24,7 +24,7 @@ Vi kobler fuktighetssensor til P1.Pass på at sort ledning kobles mot sort pin p
 ## Lag variabel for fuktighetssensor
 
 For å huske verdien fra fuktighetssensoren lager vi en variabel.Velg "Lag en variabel" fra`` || variables: variabler || ``.Denne kan hete "fuktighet".
-    Sett "fuktighet" til 0 i ved start.
+Sett "fuktighet" til 0 i ved start.
 
 ```blocks
 OLED.init(128, 64)
@@ -83,7 +83,7 @@ Koble den røde ledninge fra pumpen til den midterste skrukontakten på releet.
 Koble en enkel ledning fra skrukoblingen NO på releet til rød på sensor: bit.
 
 Koble den svarte ledningen til svart på sensor: bit
-![Oppkobling](/LRBAV68.png)
+![Oppkobling](https://olauk.github.io/smarthomexmastutorial/LRBAV68.png)
 
 ## Test av pumpen
 
@@ -169,19 +169,18 @@ basic.forever(function () {
 
 Forslag til problemer som kan forbedres:
 - Hvordan hindre at man fyller for mye vann ?
-    - Hva skjer hvis koppen som pumpen fyller fra er tom ?
-        - Kan man se på skjermen om julegrana har vann eller ikke ?
+- Hva skjer hvis koppen som pumpen fyller fra er tom ?
+- Kan man se på skjermen om julegrana har vann eller ikke ?
 
-            Lykke til!
+Lykke til!
 
-                ```package
+```package
 smarthome=github:tinkertanker/pxt-smarthome
 ```
 
-                ```template
+```template
 loops.everyInterval(500)
 smarthome.ReadSoilHumidity(AnalogPin.P1)
-
 ```
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
